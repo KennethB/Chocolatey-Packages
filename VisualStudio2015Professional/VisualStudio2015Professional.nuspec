@@ -1,28 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>VisualStudio2015Community</id>
+		<id>VisualStudio2015Professional</id>
 		<version>14.0.24720.01</version>
-		<title>Visual Studio 2015 Community Update 1</title>
+		<title>Visual Studio 2015 Professional Update 1</title>
 		<authors>Microsoft</authors>
 		<owners>Jivko Kolev, Kenneth Berntsen</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioCommon/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Community</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Professional</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
 		<!--<projectSourceUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioEnterprise</projectSourceUrl>
 		<mailingListUrl></mailingListUrl>
 		<bugTrackerUrl></bugTrackerUrl>-->
-		<summary>Free, full-featured and extensible tool for developers building non-enterprise applications</summary>
-		<tags>Microsoft Visual Studio 2015 Community IDE admin</tags>
+		<summary>Professional developer tools and services for individual developers or small teams</summary>
+		<tags>Microsoft Visual Studio 2015 Professional IDE admin</tags>
 		<description>### Overview
-			Free, full-featured and extensible tool for developers building non-enterprise applications.
+			Professional developer tools and services for individual developers or small teams.
 
-			- Full-featured Integrated Development Environment for building Web, Windows Desktop and cross-platform iOS, Android, and Windows apps.
-			- Ecosystem with thousands of extensions to choose from in the Visual Studio Gallery, or create your own.
-			- Free for open source projects, academic research, training, education and small professional teams.
+			- Professional developer tool for building any application type
+			- Powerful features to improve your team's productivity such as CodeLens
+			- Improve team collaboration with Agile project planning tools, Team Rooms, charts and more
+			- MSDN subscription benefits including access to core software for dev/test, Team Foundation Server, Visual Studio Online Basic, $50/month in Azure credits, training and support.
 
 			### Customizations
 			You can customize the installation either by adding optional available features or by specifying own installation configuration file.
@@ -32,11 +33,13 @@
 			You can provide optional parameters to include them during the install.
 			Here is example that includes the Sql Tools and Windows Phone Emulators:
 
-			choco install VisualStudio2015Community -packageParameters "--Features SQL,WindowsPhone81Emulators"
+			choco install VisualStudio2015Professional -packageParameters "--Features SQL,WindowsPhone81Emulators"
 
 			##### Available features:
+			- LightSwitch
 			- MDDCPlusPlus
 			- MDDJS
+			- OfficeDeveloperTools
 			- SilverLight_Developer_Kit
 			- SQL
 			- ToolsForWin81_WP80_WP81
@@ -45,11 +48,11 @@
 
 			#### Using own configuration file
 			Specifying the optional features above modifies the configuration file used during installation (AdminDeployment.xml). If that is not enough you can provide this file on your own.
-			Examples:
+			Example:
 
-			choco install VisualStudio2015Community -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
-			choco install VisualStudio2015Community -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
+			choco install VisualStudio2015Professional -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
+			choco install VisualStudio2015Professional -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
 		</description>
-		<releaseNotes>- Updated AdminDeploymebnt.xml for the latest release of Visual Studio Community 2015</releaseNotes>
+		<releaseNotes>- Updated AdminDeploymebnt.xml for the latest release of Visual Studio Professional 2015</releaseNotes>
 	</metadata>
 </package>

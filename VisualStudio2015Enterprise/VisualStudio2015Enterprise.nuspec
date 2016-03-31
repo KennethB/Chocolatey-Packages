@@ -9,7 +9,7 @@
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioCommon/VS2015.png</iconUrl>
-		<packageSourceUrl>https://github.com/KennethB/Chocolatey_VisualStudio2015/tree/master/VisualStudio2015Enterprise</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Enterprise</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
 		<!--<projectSourceUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioEnterprise</projectSourceUrl>
 		<mailingListUrl></mailingListUrl>
