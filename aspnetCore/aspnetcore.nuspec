@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aspnetcore</id>
-    <title>ASP.NET 5 RC1 Update 1</title>
-    <version>1.0.0-RC1U1</version>
+    <title>ASP.NET Core 1.0 RC1</title>
+    <version>1.0.0-RC1</version>
     <authors>Microsoft</authors>
     <owners>KennethB</owners>
     <summary>ASP.NET 5 RC1 Update 1 (Soon to be ASP.NET Core 1.0)</summary>
@@ -11,6 +11,7 @@
     <projectUrl>http://asp.net</projectUrl>
     <packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/aspnetCore</packageSourceUrl>
     <projectSourceUrl>https://github.com/aspnet/home</projectSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/aspnet.jpg</iconUrl>
     <docsUrl>https://github.com/aspnet/Home/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/aspnet/Home/issues</bugTrackerUrl>
     <tags>ASP.NET MVC admin </tags>
