@@ -7,7 +7,7 @@
 		<authors>Microsoft</authors>
 		<owners>Jivko Kolev, Kenneth Berntsen</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
-		<iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioCommon/VS2015.png</iconUrl>
+		<iconUrl>https://github.com/kennethb/Chocolatey-Packages/raw/master/icons/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Community</packageSourceUrl>
