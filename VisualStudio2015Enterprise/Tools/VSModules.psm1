@@ -130,7 +130,7 @@ It's recommended you call it the same as your nuget package id.
 This is the url to download the VS web installer.
 
 .EXAMPLE
-Install-VS 'VisualStudio2015Community' 'http://download.microsoft.com/download/zzz/vs_community.exe'
+Install-VS 'VisualStudio2015Enterprise' 'http://download.microsoft.com/download/zzz/vs_enterprise.exe'
 
 .OUTPUTS
 None
