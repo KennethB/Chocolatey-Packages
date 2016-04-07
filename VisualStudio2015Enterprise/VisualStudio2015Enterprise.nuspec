@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Enterprise</id>
-		<version>14.0.24720.01</version>
+		<version>14.0.25123.00</version>
 		<title>Visual Studio 2015 Enterprise Update 2</title>
 		<authors>Microsoft</authors>
 		<owners>Kenneth Berntsen</owners>
