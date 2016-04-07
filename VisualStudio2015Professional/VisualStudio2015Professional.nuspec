@@ -2,19 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Professional</id>
-		<version>14.0.24720.01</version>
+		<version>14.0.25123.00</version>
 		<title>Visual Studio 2015 Professional Update 1</title>
 		<authors>Microsoft</authors>
-		<owners>Jivko Kolev, Kenneth Berntsen</owners>
+		<owners>Kenneth Berntsen</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
-		<iconUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioCommon/VS2015.png</iconUrl>
+		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Professional</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
-		<!--<projectSourceUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioEnterprise</projectSourceUrl>
+		<!--
 		<mailingListUrl></mailingListUrl>
-		<bugTrackerUrl></bugTrackerUrl>-->
+		<bugTrackerUrl></bugTrackerUrl>
+		-->
 		<summary>Professional developer tools and services for individual developers or small teams</summary>
 		<tags>Microsoft Visual Studio 2015 Professional IDE admin</tags>
 		<description>### Overview
@@ -26,27 +27,14 @@
 			- MSDN subscription benefits including access to core software for dev/test, Team Foundation Server, Visual Studio Online Basic, $50/month in Azure credits, training and support.
 
 			### Customizations
-			You can customize the installation either by adding optional available features or by specifying own installation configuration file.
+			You can customize the installation either by specifying your own installation configuration file.
 
 			#### Adding optional features
 			Optional features (Sql tools, phone tools, etc.) are available but not installed by default.
-			You can provide optional parameters to include them during the install.
-			Here is example that includes the Sql Tools and Windows Phone Emulators:
+			To specify the features you want installed you can download the AdminDeployment.xml and modify it to support your needs.
+			
+			https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/VisualStudio2015Professional/Tools/AdminDeployment.xml
 
-			choco install VisualStudio2015Professional -packageParameters "--Features SQL,WindowsPhone81Emulators"
-
-			##### Available features:
-			- LightSwitch
-			- MDDCPlusPlus
-			- MDDJS
-			- OfficeDeveloperTools
-			- SilverLight_Developer_Kit
-			- SQL
-			- ToolsForWin81_WP80_WP81
-			- VC_MFC_Libraries
-			- WindowsPhone81Emulators
-
-			#### Using own configuration file
 			Specifying the optional features above modifies the configuration file used during installation (AdminDeployment.xml). If that is not enough you can provide this file on your own.
 			Example:
 
