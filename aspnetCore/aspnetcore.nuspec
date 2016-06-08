@@ -5,13 +5,12 @@
     <title>ASP.NET Core 1.0 RC1</title>
     <version>1.0.0-RC1</version>
     <authors>Microsoft</authors>
-    <owners>neutmute</owners>
     <summary>ASP.NET 5 RC1 Update 1 (Soon to be ASP.NET Core 1.0)</summary>
     <description>ASP.NET 5 RC1 Update 1 (Soon to be ASP.NET Core 1.0)</description>
     <projectUrl>http://asp.net</projectUrl>
-    <packageSourceUrl>https://github.com/neutmute/chocolatey-vs</packageSourceUrl>
+    <packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages</packageSourceUrl>
     <projectSourceUrl>https://github.com/aspnet/home</projectSourceUrl>
-    <iconUrl>https://raw.githubusercontent.com/neutmute/chocolatey-vs/master/icons/aspnet.jpg</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/aspnet.jpg</iconUrl>
     <docsUrl>https://github.com/aspnet/Home/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/aspnet/Home/issues</bugTrackerUrl>
     <tags>ASP.NET MVC admin </tags>

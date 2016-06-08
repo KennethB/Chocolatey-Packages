@@ -5,12 +5,11 @@
 		<version>14.0.25123.01</version>
 		<title>Visual Studio 2015 Professional Update 2</title>
 		<authors>Microsoft</authors>
-		<owners>neutmute</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
-		<iconUrl>https://raw.githubusercontent.com/neutmute/chocolatey-vs/master/icons/VS2015.png</iconUrl>
+		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<packageSourceUrl>https://github.com/neutmute/chocolatey-vs</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
 		<!--
 		<mailingListUrl></mailingListUrl>
@@ -33,7 +32,7 @@
 			Optional features (Sql tools, phone tools, etc.) are available but not installed by default.
 			To specify the features you want installed you can download the AdminDeployment.xml and modify it to support your needs.
 			
-			https://raw.githubusercontent.com/neutmute/Chocolatey-Packages/master/VisualStudio2015Professional/Tools/AdminDeployment.xml
+			https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/VisualStudio2015Professional/Tools/AdminDeployment.xml
 
 			Specifying the optional features above modifies the configuration file used during installation (AdminDeployment.xml). If that is not enough you can provide this file on your own.
 			Example:
