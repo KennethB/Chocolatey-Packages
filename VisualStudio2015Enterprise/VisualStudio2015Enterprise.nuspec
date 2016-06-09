@@ -2,18 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Enterprise</id>
-		<version>14.0.25123.00</version>
+		<version>14.0.25123.01</version>
 		<title>Visual Studio 2015 Enterprise Update 2</title>
 		<authors>Microsoft</authors>
-		<owners>Kenneth Berntsen</owners>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
-		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Enterprise</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
-		<!--<projectSourceUrl>https://github.com/jivkok/Chocolatey-Packages/raw/master/VisualStudioEnterprise</projectSourceUrl>
-		<mailingListUrl></mailingListUrl>
-		<bugTrackerUrl></bugTrackerUrl>-->
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<summary>Enterprise grade solution with advanced capabilities for teams working on projects of any size or complexity, including advanced testing and DevOps</summary>
 		<tags>Microsoft Visual Studio 2015 Enterprise IDE admin</tags>

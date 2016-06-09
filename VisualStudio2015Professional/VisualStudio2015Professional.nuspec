@@ -2,15 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Professional</id>
-		<version>14.0.25123.00</version>
+		<version>14.0.25123.01</version>
 		<title>Visual Studio 2015 Professional Update 2</title>
 		<authors>Microsoft</authors>
-		<owners>Kenneth Berntsen</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Professional</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
 		<!--
 		<mailingListUrl></mailingListUrl>

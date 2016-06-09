@@ -2,20 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Community</id>
-		<version>14.0.25123.00</version>
+		<version>14.0.25123.01</version>
 		<title>Visual Studio 2015 Community Update 2</title>
 		<authors>Microsoft</authors>
-		<owners>Kenneth Berntsen</owners>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages/tree/master/VisualStudio2015Community</packageSourceUrl>
+		<packageSourceUrl>https://github.com/KennethB/Chocolatey-Packages</packageSourceUrl>
 		<docsUrl>https://msdn.microsoft.com/library</docsUrl>
-		<!--
-		<mailingListUrl></mailingListUrl>
-		<bugTrackerUrl></bugTrackerUrl>
-		-->
 		<summary>Free, full-featured and extensible tool for developers building non-enterprise applications</summary>
 		<tags>Microsoft Visual Studio 2015 Community IDE admin</tags>
 		<description>### Overview
