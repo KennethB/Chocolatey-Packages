@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Community</id>
-		<version>14.0.25123.01</version>
-		<title>Visual Studio 2015 Community Update 2</title>
+		<version>14.0.25420.1</version>
+		<title>Visual Studio 2015 Community Update 3</title>
 		<authors>Microsoft</authors>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
 		<iconUrl>https://raw.githubusercontent.com/KennethB/Chocolatey-Packages/master/icons/VS2015.png</iconUrl>
@@ -38,6 +38,6 @@
 			choco install VisualStudio2015Community -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
 			choco install VisualStudio2015Community -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
 		</description>
-		<releaseNotes>- Updated AdminDeploymebnt.xml for the latest release of Visual Studio Community 2015</releaseNotes>
+		<releaseNotes>Update 3</releaseNotes>
 	</metadata>
 </package>
