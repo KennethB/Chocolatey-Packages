@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Enterprise</id>
-		<version>2015.03.01</version>
+		<version>2015.03.02</version>
 		<title>Visual Studio 2015 Enterprise Update 3</title>
 		<authors>Microsoft</authors>
 		<licenseUrl>http://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
@@ -32,6 +32,6 @@ Example:
 choco install VisualStudio2015Enterprise -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
 choco install VisualStudio2015Enterprise -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
 		</description>
-		<releaseNotes>- Updated AdminDeploymebnt.xml for Visual Studio Enterprise 2015 Update 3</releaseNotes>
+		<releaseNotes>- Adding checksum for downloaded components</releaseNotes>
 	</metadata>
 </package>
