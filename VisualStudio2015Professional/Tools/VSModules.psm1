@@ -145,7 +145,8 @@ Install-ChocolateyPackage
 param(
   [string] $packageName,
   [string] $url,
-  [string] $exeName
+  [string] $exeName,
+  [string] $checksum
 )
     Write-Debug "Running 'Install-VS' for $packageName with url:`'$url`'";
 
@@ -153,10 +154,7 @@ param(
     $validExitCodes = @(
         0, # success
         3010, # success, restart required
-        2147781575, # pending restart required
-        -2147185721, # pending restart required
-        -2147205120, # pending restart not required
-        -2147172352 # pending restart required
+        2147781575 # pending restart required
     )
 
     $defaultAdminFile = (Join-Path $PSScriptRoot 'AdminDeployment.xml')
@@ -182,12 +180,14 @@ param(
           -FileType 'exe' `
           -SilentArgs $silentArgs `
           -File "$env:visualStudio:setupFolder\$exeName" `
-          -ValidExitCodes $validExitCodes
+          -ValidExitCodes $validExitCodes `
+           -Checksum $checksum `
+           -ChecksumType 'sha256'
     }
     else
     {
         Write-Output "Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes"
-        Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
+        Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes -Checksum $checksum -ChecksumType sha256
     }
 
     TeardownIso
