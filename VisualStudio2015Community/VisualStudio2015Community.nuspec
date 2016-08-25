@@ -20,6 +20,11 @@
 			- Ecosystem with thousands of extensions to choose from in the Visual Studio Gallery, or create your own.
 			- Free for open source projects, academic research, training, education and small professional teams.
 
+			### Attention Windows 8.1 and  Windows Server 2012 R2 Users
+
+			You must have Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014 installed in order to install Visual Studio 2015
+			You can download KB2919355 here https://support.microsoft.com/en-us/kb/2919355
+
 			### Customizations
 			You can customize the installation either by adding optional available features or by specifying own installation configuration file.
 

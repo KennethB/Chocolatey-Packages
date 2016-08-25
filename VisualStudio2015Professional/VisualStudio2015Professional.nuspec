@@ -25,6 +25,11 @@
 			- Improve team collaboration with Agile project planning tools, Team Rooms, charts and more
 			- MSDN subscription benefits including access to core software for dev/test, Team Foundation Server, Visual Studio Online Basic, $50/month in Azure credits, training and support.
 
+			### Attention Windows 8.1 and  Windows Server 2012 R2 Users
+
+			You must have Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 update: April 2014 installed in order to install Visual Studio 2015
+			You can download KB2919355 here https://support.microsoft.com/en-us/kb/2919355
+
 			### Customizations
 			You can customize the installation either by specifying your own installation configuration file.
 
