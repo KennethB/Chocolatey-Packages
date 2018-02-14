@@ -93,6 +93,12 @@ function Update-Admin-File($parameters, $adminFile)
             $node.Selected = "yes"
         }
     }
+    $notSelectedNodes = $xml.DocumentElement.SelectableItemCustomizations.ChildNodes | ? {$_.Selected -eq "no"}
+    foreach ($nodeToRemove in $notSelectedNodes)
+    {
+        Write-Warning "Removing not selected AdminDeployment node: $($nodeToRemove.Id)"
+        $nodeToRemove.ParentNode.RemoveChild($nodeToRemove)
+    }
     $xml.Save($adminFile)
 }
 

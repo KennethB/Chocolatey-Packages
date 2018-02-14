@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>VisualStudio2015Professional</id>
-		<version>2015.03.02</version>
+		<version>2015.03.05</version>
 		<title>Visual Studio 2015 Professional Update 3</title>
 		<authors>Microsoft</authors>
 		<projectUrl>https://www.visualstudio.com/vs-2015-product-editions</projectUrl>
@@ -45,7 +45,6 @@
 			choco install VisualStudio2015Professional -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
 			choco install VisualStudio2015Professional -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
 		</description>
-		<releaseNotes>- Adding checksum for downloaded component
-			- Updated AdminDeploymebnt.xml for Visual Studio Professional 2015 Update 3</releaseNotes>
+		<releaseNotes>- Updated AdminDeployment.xml for Visual Studio Professional 2015 Update 3 2017-10-25</releaseNotes>
 	</metadata>
 </package>
