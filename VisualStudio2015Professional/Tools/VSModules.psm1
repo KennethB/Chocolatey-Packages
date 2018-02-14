@@ -187,7 +187,7 @@ param(
     else
     {
         Write-Output "Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes"
-        Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes -Checksum $checksum -ChecksumType sha256
+        Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes -Checksum $checksum -ChecksumType 'sha256'
     }
 
     TeardownIso
