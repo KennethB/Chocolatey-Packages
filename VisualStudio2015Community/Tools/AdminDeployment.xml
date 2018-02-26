@@ -5,6 +5,9 @@
     <SelectableItemCustomization Id="VSUV3RTMV1" Hidden="no" Selected="yes" FriendlyName="Visual Studio 2015 Update 3" />
     <SelectableItemCustomization Id="MicroUpdateV3.5" Selected="yes" FriendlyName="Update for Microsoft Visual Studio 2015 (KB3165756)" />
     <SelectableItemCustomization Id="WebToolsV1" Hidden="no" Selected="yes" FriendlyName="Microsoft Web Developer Tools" />
+    <SelectableItemCustomization Id="GitForWindowsx64V8" Hidden="no" Selected="yes" FriendlyName="Git for Windows" />
+    <SelectableItemCustomization Id="GitForWindowsx86V8" Hidden="no" Selected="yes" FriendlyName="Git for Windows" />
+    <SelectableItemCustomization Id="Win10SDK_HiddenV2" Selected="yes" FriendlyName="Windows 10 SDK (10.0.10586)" />
     <SelectableItemCustomization Id="JavaScript_HiddenV12" Selected="yes" FriendlyName="JavaScript Project System for Visual Studio" />
     <SelectableItemCustomization Id="MDDJSDependencyHiddenV1" Selected="yes" FriendlyName="MDDJSDependencyHidden" />
     <SelectableItemCustomization Id="AppInsightsToolsVisualStudioHiddenVSU3RTMV1" Selected="yes" FriendlyName="Developer Analytics Tools v7.0.2" />
@@ -58,20 +61,16 @@
     <SelectableItemCustomization Id="L_MDDCPlusPlus_Android_V7" Hidden="no" Selected="no" FriendlyName="Visual C++ Android Development (Update 3)" />
     <SelectableItemCustomization Id="L_MDDCPlusPlus_ClangC2_V6" Hidden="no" Selected="no" FriendlyName="Clang with Microsoft CodeGen (July 2016)" />
     <SelectableItemCustomization Id="L_IncrediBuild_V1" Selected="no" FriendlyName="IncrediBuild" />
-    <SelectableItemCustomization Id="JavaJDKV1" Hidden="no" Selected="no" FriendlyName="Java SE Development Kit (7.0.550.13)" />
     <SelectableItemCustomization Id="Node.jsV1" Hidden="no" Selected="no" FriendlyName="Joyent Node.js" />
     <SelectableItemCustomization Id="VSEmu_AndroidV1.1.622.2" Hidden="no" Selected="no" FriendlyName="Microsoft Visual Studio Emulator for Android (July 2016)" />
     <SelectableItemCustomization Id="WebSocket4NetV1" Hidden="no" Selected="no" FriendlyName="WebSocket4Net" />
     <SelectableItemCustomization Id="ToolsForWin81_WP80_WP81V1" Hidden="no" Selected="no" FriendlyName="Tools and Windows SDKs" />
-    <SelectableItemCustomization Id="WindowsPhone81EmulatorsV1" Hidden="no" Selected="no" FriendlyName="Emulators for Windows Phone 8.1" />
-    <SelectableItemCustomization Id="GitForWindowsx64V7" Hidden="no" Selected="no" FriendlyName="Git for Windows" />
-    <SelectableItemCustomization Id="GitForWindowsx86V7" Hidden="no" Selected="no" FriendlyName="Git for Windows" />
+    <SelectableItemCustomization Id="WindowsPhone81EmulatorsV1" Selected="no" FriendlyName="Emulators for Windows Phone 8.1" />
     <SelectableItemCustomization Id="GitHubVSV1" Hidden="no" Selected="no" FriendlyName="GitHub Extension for Visual Studio" />
     <SelectableItemCustomization Id="VS_SDK_GroupV5" Hidden="no" Selected="no" FriendlyName="Visual Studio Extensibility Tools Update 3" />
     <SelectableItemCustomization Id="VS_SDK_Breadcrumb_GroupV5" Selected="no" FriendlyName="Visual Studio Extensibility Tools Update 3" />
     <SelectableItemCustomization Id="Win10_VSToolsV13" Hidden="no" Selected="no" FriendlyName="Tools for Universal Windows Apps (1.4.1) and Windows 10 SDK (10.0.14393)" />
     <SelectableItemCustomization Id="Win10SDK_HiddenV1" Hidden="no" Selected="no" FriendlyName="Windows 10 SDK (10.0.10240)" />
-    <SelectableItemCustomization Id="Win10SDK_HiddenV2" Selected="no" FriendlyName="Windows 10 SDK (10.0.10586)" />
     <SelectableItemCustomization Id="Win10SDK_HiddenV3" Hidden="no" Selected="no" FriendlyName="Windows 10 SDK (10.0.10586)" />
     <SelectableItemCustomization Id="Win10SDK_HiddenV4" Selected="no" FriendlyName="Windows 10 SDK (10.0.14393)" />
     <SelectableItemCustomization Id="Win10SDK_VisibleV1" Hidden="no" Selected="no" FriendlyName="Windows 10 SDK 10.0.10240" />
