@@ -38,6 +38,13 @@ Example:
 choco install VisualStudio2015Enterprise -packageParameters "--AdminFile c:\path to your\AdminDeployment.xml"
 choco install VisualStudio2015Enterprise -packageParameters "--AdminFile http://path/to/your/AdminDeployment.xml"
 		</description>
-		<releaseNotes>- Updated AdminDeployment.xml for Visual Studio Enterprise 2015 Update 3 2017-05-12</releaseNotes>
+		<releaseNotes>
+- Updated AdminDeployment.xml for Visual Studio Professional 2015 Update 3 2018-02-26
+- Added dependency on .NET
+- Switched download protocol to HTTPS
+		</releaseNotes>
+		<dependencies>
+			<dependency id="DotNet4.5.1" />
+		</dependencies>
 	</metadata>
 </package>
