@@ -44,7 +44,7 @@ choco install VisualStudio2015Enterprise -packageParameters "--AdminFile http://
 - Switched download protocol to HTTPS
 		</releaseNotes>
 		<dependencies>
-			<dependency id="dotnet4.6" />
+			<dependency id="dotnet4.6.1" />
 		</dependencies>
 	</metadata>
 </package>
