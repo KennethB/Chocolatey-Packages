@@ -90,14 +90,19 @@ function Update-Admin-File($parameters, $adminFile)
         $node = $xml.DocumentElement.SelectableItemCustomizations.ChildNodes | ? {$_.Id -eq "$feature"}
         if ($node -ne $null)
         {
+            Write-Host "Enabling requested feature: $feature"
             $node.Selected = "yes"
+        }
+        else
+        {
+            Write-Warning "Requested feature not found in admin file: $feature"
         }
     }
     $notSelectedNodes = $xml.DocumentElement.SelectableItemCustomizations.ChildNodes | ? {$_.Selected -eq "no"}
     foreach ($nodeToRemove in $notSelectedNodes)
     {
-        Write-Warning "Removing not selected AdminDeployment node: $($nodeToRemove.Id)"
-        $nodeToRemove.ParentNode.RemoveChild($nodeToRemove)
+        Write-Verbose "Removing not selected AdminDeployment node: $($nodeToRemove.Id)"
+        $nodeToRemove.ParentNode.RemoveChild($nodeToRemove) | Out-Null
     }
     $xml.Save($adminFile)
 }
